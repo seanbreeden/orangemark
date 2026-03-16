@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=OrangeMark
+GenericName=Markdown Editor
+Comment=Sleek GTK 4 WYSIWYG Markdown Editor
+# The install.sh script will automatically update these paths
+Exec=orangemark %f
+Icon=orangemark
+Terminal=false
+Type=Application
+Categories=Office;TextEditor;Development;
+MimeType=text/markdown;text/x-markdown;text/plain;
+Keywords=markdown;editor;wysiwyg;gtk;
+StartupNotify=true
+Actions=NewWindow;
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=orangemark
